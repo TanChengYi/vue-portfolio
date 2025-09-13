@@ -1,0 +1,151 @@
+/* 主题颜色定义 */
+
+/* Neon 主题 - 霓虹科技 */
+.theme-neon {
+  --bg: #0a0a0a;
+  --bg-rgb: 10, 10, 10;
+  --card: #111111;
+  --text: #ffffff;
+  --muted: #888888;
+  --accent: #00ffff;
+  --ring: 0 0 30px rgba(0, 255, 255, 0.3);
+  --shadow: 0 8px 32px rgba(0, 255, 255, 0.1);
+}
+
+.theme-neon.dark {
+  --bg: #000000;
+  --bg-rgb: 0, 0, 0;
+  --card: #0f0f0f;
+  --text: #ffffff;
+  --muted: #666666;
+  --accent: #00ffff;
+  --ring: 0 0 40px rgba(0, 255, 255, 0.4);
+  --shadow: 0 12px 40px rgba(0, 255, 255, 0.15);
+}
+
+/* Glass 主题 - 玻璃态 */
+.theme-glass {
+  --bg: #f8fafc;
+  --bg-rgb: 248, 250, 252;
+  --card: rgba(255, 255, 255, 0.7);
+  --text: #1e293b;
+  --muted: #64748b;
+  --accent: #3b82f6;
+  --ring: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  --shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+}
+
+.theme-glass.dark {
+  --bg: #0f172a;
+  --bg-rgb: 15, 23, 42;
+  --card: rgba(30, 41, 59, 0.7);
+  --text: #f1f5f9;
+  --muted: #94a3b8;
+  --accent: #60a5fa;
+  --ring: 0 0 0 3px rgba(96, 165, 250, 0.1);
+  --shadow: 0 8px 32px rgba(15, 23, 42, 0.3);
+}
+
+/* Minimal 主题 - 极简 */
+.theme-minimal {
+  --bg: #ffffff;
+  --bg-rgb: 255, 255, 255;
+  --card: #fafafa;
+  --text: #171717;
+  --muted: #737373;
+  --accent: #000000;
+  --ring: 0 0 0 2px rgba(0, 0, 0, 0.1);
+  --shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.theme-minimal.dark {
+  --bg: #0a0a0a;
+  --bg-rgb: 10, 10, 10;
+  --card: #171717;
+  --text: #fafafa;
+  --muted: #a3a3a3;
+  --accent: #ffffff;
+  --ring: 0 0 0 2px rgba(255, 255, 255, 0.1);
+  --shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Retro 主题 - 复古 */
+.theme-retro {
+  --bg: #fef3c7;
+  --bg-rgb: 254, 243, 199;
+  --card: #fde68a;
+  --text: #92400e;
+  --muted: #d97706;
+  --accent: #dc2626;
+  --ring: 0 0 0 3px rgba(220, 38, 38, 0.1);
+  --shadow: 0 8px 24px rgba(146, 64, 14, 0.1);
+}
+
+.theme-retro.dark {
+  --bg: #451a03;
+  --bg-rgb: 69, 26, 3;
+  --card: #78350f;
+  --text: #fed7aa;
+  --muted: #fb923c;
+  --accent: #f97316;
+  --ring: 0 0 0 3px rgba(249, 115, 22, 0.2);
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Sakura 主题 - 樱花 */
+.theme-sakura {
+  --bg: #fdf2f8;
+  --bg-rgb: 253, 242, 248;
+  --card: #fce7f3;
+  --text: #831843;
+  --muted: #be185d;
+  --accent: #ec4899;
+  --ring: 0 0 0 3px rgba(236, 72, 153, 0.1);
+  --shadow: 0 8px 24px rgba(131, 24, 67, 0.1);
+}
+
+.theme-sakura.dark {
+  --bg: #4c1d24;
+  --bg-rgb: 76, 29, 36;
+  --card: #831843;
+  --text: #fce7f3;
+  --muted: #f9a8d4;
+  --accent: #f472b6;
+  --ring: 0 0 0 3px rgba(244, 114, 182, 0.2);
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Ocean 主题 - 海洋 */
+.theme-ocean {
+  --bg: #ecfeff;
+  --bg-rgb: 236, 254, 255;
+  --card: #cffafe;
+  --text: #164e63;
+  --muted: #0891b2;
+  --accent: #0284c7;
+  --ring: 0 0 0 3px rgba(2, 132, 199, 0.1);
+  --shadow: 0 8px 24px rgba(22, 78, 99, 0.1);
+}
+
+.theme-ocean.dark {
+  --bg: #083344;
+  --bg-rgb: 8, 51, 68;
+  --card: #164e63;
+  --text: #cffafe;
+  --muted: #67e8f9;
+  --accent: #22d3ee;
+  --ring: 0 0 0 3px rgba(34, 211, 238, 0.2);
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* 全局样式应用 */
+html {
+  background: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}

@@ -1,0 +1,81 @@
+{
+  "site": {
+    "title": "Jack Tan - Software Engineer Portfolio"
+  },
+  "nav": {
+    "about": "About Me",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Jack Tan",
+    "position": "Software Engineer",
+    "tagline": "Passionate software engineer with expertise in full-stack development, creating robust web applications and innovative solutions in Kuala Lumpur",
+    "viewProjects": "View My Work",
+    "contactMe": "Contact Me",
+    "scrollDown": "Scroll down to learn more"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "I am a passionate software engineer with 4+ years of experience developing full-stack applications in Kuala Lumpur",
+    "myStory": "My Story",
+    "storyContent": "I have {years} years of software development experience, specializing in full-stack web applications using C#, .NET, and modern JavaScript frameworks. Since starting my career in 2020, I've worked with various technologies across frontend and backend development.",
+    "storyContent2": "My expertise spans from traditional ASP.NET MVC applications to modern web APIs and Vue.js frontend development. I believe in writing clean, maintainable code and delivering solutions that provide excellent user experience.",
+    "storyContent3": "Currently based in Kuala Lumpur, I enjoy tackling complex technical challenges and continuously learning new technologies to stay current with industry trends.",
+    "highlights": "Professional Highlights",
+    "projects": "Projects Delivered",
+    "years": "Years Experience",
+    "technologies": "Technologies",
+    "satisfaction": "Client Satisfaction",
+    "skills": "Skills & Expertise"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Here are some projects I've been involved in developing, showcasing my development capabilities across different tech stacks and application scenarios",
+    "viewDemo": "View Demo",
+    "viewCode": "View Code",
+    "preview": "Preview",
+    "sourceCode": "Source Code",
+    "moreProjects": "More projects are in development...",
+    "visitGithub": "Visit My GitHub"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "subtitle": "My professional growth journey, recording every important milestone and skill improvement",
+    "achievements": "Key Achievements:",
+    "techStack": "Tech Stack:",
+    "downloadResume": "Download Full Resume",
+    "moreInfo": "Want to know more details?"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Have project collaboration ideas or want to know more? Feel free to get in touch with me anytime",
+    "contactInfo": "Contact Information",
+    "followMe": "Follow My Updates",
+    "sendMessage": "Send Message",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "nameRequired": "Name *",
+    "emailRequired": "Email *",
+    "messageRequired": "Message *",
+    "namePlaceholder": "Please enter your name",
+    "emailPlaceholder": "Please enter your email address",
+    "subjectPlaceholder": "Please enter message subject",
+    "messagePlaceholder": "Please enter what you want to say...",
+    "sending": "Sending...",
+    "sendMessage": "Send Message",
+    "cta": "Get in touch",
+    "phone": "Phone",
+    "location": "Location",
+    "demoMessage": "Thank you for your message! This is a demo, actual projects need to connect to backend services."
+  },
+  "common": {
+    "backToTop": "Back to Top",
+    "loading": "Loading...",
+    "error": "Error occurred",
+    "success": "Success"
+  }
+}

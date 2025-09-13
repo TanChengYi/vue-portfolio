@@ -1,0 +1,81 @@
+{
+  "site": {
+    "title": "Jack Tan - 软件工程师作品集"
+  },
+  "nav": {
+    "about": "关于我",
+    "projects": "项目作品",
+    "experience": "工作经历",
+    "contact": "联系我"
+  },
+  "hero": {
+    "greeting": "你好，我是 Jack Tan",
+    "position": "软件工程师",
+    "tagline": "热爱软件开发的工程师，擅长全栈开发，在吉隆坡创建健壮的Web应用和创新解决方案",
+    "viewProjects": "查看我的作品",
+    "contactMe": "联系我",
+    "scrollDown": "向下滚动了解更多"
+  },
+  "about": {
+    "title": "关于我",
+    "subtitle": "我是一名充满热情的前端开发工程师，致力于创建出色的用户体验",
+    "myStory": "我的故事",
+    "storyContent": "我拥有 {years} 年的前端开发经验，专注于现代 Web 技术的应用。从大学期间开始接触编程，到现在已经参与了超过 50 个项目的开发。",
+    "storyContent2": "我相信优秀的用户界面不仅要美观，更要实用。因此我总是追求在视觉设计和用户体验之间找到完美的平衡点。",
+    "storyContent3": "除了编程，我还热爱设计、摄影和音乐。这些爱好让我能够从不同角度思考问题，为我的开发工作带来更多创意和灵感。",
+    "highlights": "个人亮点",
+    "projects": "完成项目",
+    "years": "工作年限",
+    "technologies": "技术栈",
+    "satisfaction": "客户满意度",
+    "skills": "技能专长"
+  },
+  "projects": {
+    "title": "项目作品",
+    "subtitle": "以下是我参与开发的一些项目，展示了我在不同技术栈和应用场景下的开发能力",
+    "viewDemo": "查看演示",
+    "viewCode": "查看代码",
+    "preview": "预览",
+    "sourceCode": "源码",
+    "moreProjects": "还有更多项目正在开发中...",
+    "visitGithub": "访问我的 GitHub"
+  },
+  "experience": {
+    "title": "工作经历",
+    "subtitle": "我的职业成长历程，记录着每一个重要的里程碑和技能提升",
+    "achievements": "主要成就：",
+    "techStack": "技术栈：",
+    "downloadResume": "下载完整简历",
+    "moreInfo": "想了解更多详细信息？"
+  },
+  "contact": {
+    "title": "联系我",
+    "subtitle": "有项目合作想法或者想要了解更多？欢迎随时与我取得联系",
+    "contactInfo": "联系方式",
+    "followMe": "关注我的动态",
+    "sendMessage": "发送消息",
+    "name": "姓名",
+    "email": "邮箱",
+    "subject": "主题",
+    "message": "消息内容",
+    "nameRequired": "姓名 *",
+    "emailRequired": "邮箱 *",
+    "messageRequired": "消息内容 *",
+    "namePlaceholder": "请输入您的姓名",
+    "emailPlaceholder": "请输入您的邮箱地址",
+    "subjectPlaceholder": "请输入消息主题",
+    "messagePlaceholder": "请输入您想说的话...",
+    "sending": "发送中...",
+    "sendMessage": "发送消息",
+    "cta": "联系我",
+    "phone": "电话",
+    "location": "所在地",
+    "demoMessage": "感谢您的消息！这是一个演示，实际项目中需要连接到后端服务。"
+  },
+  "common": {
+    "backToTop": "返回顶部",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "success": "成功"
+  }
+}

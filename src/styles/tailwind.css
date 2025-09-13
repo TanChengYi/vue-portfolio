@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 基础工具类 */
+@layer components {
+  .container-pro {
+    @apply max-w-[1200px] mx-auto px-4;
+  }
+
+  .card {
+    background: var(--card);
+    box-shadow: var(--shadow);
+    @apply rounded-2xl p-6 transition-all duration-300;
+  }
+
+  .card:hover {
+    box-shadow: var(--ring);
+    @apply scale-[1.02];
+  }
+
+  .pill {
+    background: var(--accent);
+    color: var(--bg);
+    @apply px-3 py-1 rounded-full text-sm font-medium inline-block;
+  }
+
+  .btn {
+    background: var(--accent);
+    color: var(--bg);
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-300 inline-flex items-center justify-center hover:scale-105;
+  }
+
+  .btn-ghost {
+    background: transparent;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-300 inline-flex items-center justify-center hover:scale-105;
+  }
+
+  .btn-ghost:hover {
+    background: var(--accent);
+    color: var(--bg);
+  }
+
+  /* 导航样式 */
+  .nav-blur {
+    background: rgba(var(--bg-rgb), 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  /* 渐变文字 */
+  .gradient-text {
+    background: linear-gradient(135deg, var(--accent), var(--text));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* 滚动条样式 */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--bg);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--text);
+  }
+}
+
+/* 动画 */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease-out;
+}
+
+/* 延迟动画 */
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }

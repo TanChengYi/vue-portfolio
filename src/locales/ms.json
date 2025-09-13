@@ -1,0 +1,81 @@
+{
+  "site": {
+    "title": "Jack Tan - Portfolio Jurutera Perisian"
+  },
+  "nav": {
+    "about": "Tentang",
+    "projects": "Projek",
+    "experience": "Pengalaman",
+    "contact": "Hubungi"
+  },
+  "hero": {
+    "greeting": "Hai, saya Jack Tan",
+    "position": "Jurutera Perisian",
+    "tagline": "Jurutera perisian yang bersemangat dengan kepakaran dalam pembangunan full-stack, mencipta aplikasi web yang kukuh dan penyelesaian inovatif di Kuala Lumpur",
+    "viewProjects": "Lihat Karya Saya",
+    "contactMe": "Hubungi Saya",
+    "scrollDown": "Skrol ke bawah untuk mengetahui lebih lanjut"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "subtitle": "Saya adalah seorang pembangun frontend yang bersemangat yang berdedikasi untuk mencipta pengalaman pengguna yang cemerlang",
+    "myStory": "Cerita Saya",
+    "storyContent": "Saya mempunyai {years} tahun pengalaman pembangunan frontend, memfokuskan pada aplikasi teknologi Web moden. Dari pertama kali bertemu dengan pengaturcaraan di kolej hingga kini telah terlibat dalam pembangunan lebih daripada 50 projek.",
+    "storyContent2": "Saya percaya bahawa antara muka pengguna yang cemerlang bukan sahaja harus cantik, tetapi juga praktikal. Oleh itu saya sentiasa mengejar keseimbangan sempurna antara reka bentuk visual dan pengalaman pengguna.",
+    "storyContent3": "Selain pengaturcaraan, saya juga suka reka bentuk, fotografi dan muzik. Hobi-hobi ini membolehkan saya berfikir tentang masalah dari sudut yang berbeza dan membawa lebih banyak kreativiti dan inspirasi kepada kerja pembangunan saya.",
+    "highlights": "Sorotan Peribadi",
+    "projects": "Projek Siap",
+    "years": "Tahun Pengalaman",
+    "technologies": "Teknologi",
+    "satisfaction": "Kepuasan Pelanggan",
+    "skills": "Kemahiran & Kepakaran"
+  },
+  "projects": {
+    "title": "Projek",
+    "subtitle": "Berikut adalah beberapa projek yang saya terlibat dalam pembangunan, menunjukkan keupayaan pembangunan saya merentasi teknologi dan senario aplikasi yang berbeza",
+    "viewDemo": "Lihat Demo",
+    "viewCode": "Lihat Kod",
+    "preview": "Pratonton",
+    "sourceCode": "Kod Sumber",
+    "moreProjects": "Lebih banyak projek sedang dalam pembangunan...",
+    "visitGithub": "Lawati GitHub Saya"
+  },
+  "experience": {
+    "title": "Pengalaman Kerja",
+    "subtitle": "Perjalanan pertumbuhan profesional saya, merekodkan setiap pencapaian penting dan peningkatan kemahiran",
+    "achievements": "Pencapaian Utama:",
+    "techStack": "Teknologi:",
+    "downloadResume": "Muat Turun Resume Lengkap",
+    "moreInfo": "Ingin tahu lebih lanjut?"
+  },
+  "contact": {
+    "title": "Hubungi Saya",
+    "subtitle": "Ada idea kerjasama projek atau ingin tahu lebih lanjut? Jangan ragu untuk menghubungi saya bila-bila masa",
+    "contactInfo": "Maklumat Hubungan",
+    "followMe": "Ikuti Kemas Kini Saya",
+    "sendMessage": "Hantar Mesej",
+    "name": "Nama",
+    "email": "E-mel",
+    "subject": "Subjek",
+    "message": "Mesej",
+    "nameRequired": "Nama *",
+    "emailRequired": "E-mel *",
+    "messageRequired": "Mesej *",
+    "namePlaceholder": "Sila masukkan nama anda",
+    "emailPlaceholder": "Sila masukkan alamat e-mel anda",
+    "subjectPlaceholder": "Sila masukkan subjek mesej",
+    "messagePlaceholder": "Sila masukkan apa yang ingin anda katakan...",
+    "sending": "Menghantar...",
+    "sendMessage": "Hantar Mesej",
+    "cta": "Hubungi saya",
+    "phone": "Telefon",
+    "location": "Lokasi",
+    "demoMessage": "Terima kasih atas mesej anda! Ini adalah demo, projek sebenar perlu disambungkan ke perkhidmatan backend."
+  },
+  "common": {
+    "backToTop": "Kembali ke Atas",
+    "loading": "Memuatkan...",
+    "error": "Ralat berlaku",
+    "success": "Berjaya"
+  }
+}
